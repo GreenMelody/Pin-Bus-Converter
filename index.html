@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pin to Bus Converter</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-5">
+                <h5>Input Pin List</h5>
+                <textarea id="input-pin-list" class="form-control" rows="10"></textarea>
+            </div>
+            <div class="col-md-2 text-center d-flex align-items-center justify-content-center">
+                <button id="convert" class="btn btn-primary">Convert</button>
+            </div>
+            <div class="col-md-5">
+                <h5>Output Bus List</h5>
+                <textarea id="output-bus-list" class="form-control" rows="10" readonly></textarea>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
